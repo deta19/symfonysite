@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+home:
+  path: /
+  controller: App\Controller\HomeController::index
+  
+list tasks:
+  path: /tasks
+  controller: App\Controller\HomeController::tasks
+  
+list selected task:
+  path: /task
+  controller: App\Controller\HomeController::task
